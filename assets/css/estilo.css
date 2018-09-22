@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+
+h1, h2, h3, h4, h5, p, button, input, textarea, span, a {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+/*
+===  BOTÃO  ===
+color: #fff;
+background-color: #2962FF;
+border-radius: 7px;
+font-sizer: 20px;
+border: 1px solid 2962FF;
+font-weight: 400;
+border-radius: 7px;
+padding: 5px 12px;
+===  BOTÃO HOVER  ===
+color: #fff;
+background-color: #133eb5;
+border: 1px solid #133eb5;
+transition: 0.25s;
+
+===  TEXTO  ===
+color: #333;
+font-size: 18px;
+text-align: justify;
+font-weight: 400;
+
+===  A  ====
+color: ;
+*/
+
+/* === Inicio Nav === */
+.img-logo {
+	max-width: 27%;
+	margin-left: 120px;
+}
+
+.navbar-nav {
+	padding-left: 18px;
+}
+
+.nav-item {
+	padding: 0 15px;
+}

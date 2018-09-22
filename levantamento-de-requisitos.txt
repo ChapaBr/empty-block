@@ -1,0 +1,36 @@
+- Menu Fixo
+- Logo
+  * Animação da Logo
+- Quem Somos
+  * Valores: Texto & Imagem
+  * Missão: Texto & Imagem
+- Capacidades
+  * Animação
+  * Design
+  * Multimidia
+  * Identidade Visual
+  * E-commerce
+  * Blog
+  * Site Institucional
+  * Otimização de Sites
+- Portifólio
+  * Projetos Feitos
+- Membros
+  * Lulu
+  * Evan
+  * Chapa
+  * Pé
+  * Verissimo
+  * Perussi
+- Contato
+  * Nome
+  * Email para contato
+  * Telefone
+  * Mensagem
+
+
+
+
+=============  Tecnologias  =============
+HTML5  //  CSS3  //  JS  // PHP //
+Bootstrap  // Google Fonts  // Fontawesome
