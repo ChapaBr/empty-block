@@ -10,6 +10,30 @@ body {
 	padding: 0;
 	border: none;
 }
+
+p {
+	color: #333;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.capitulos-titulos {
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	padding: 80px;
+	color: #2962FF;
+}
+
+.icones-f {
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	color: #2962FF;
+	text-decoration: none;
+	padding: 5px;
+}
 /*
 ===  BOTÃO  ===
 color: #fff;
@@ -49,3 +73,45 @@ color: ;
 .nav-item {
 	padding: 0 15px;
 }
+
+/* === Fim Nav === */
+/* === Inicio Header === */
+section#pagina-topo {
+	height: 100vh;
+}
+/* === Fim Header === */
+/* === Inicio Empty Block === */
+section#empty-block {
+	background-color: #e0e0e0;
+}
+
+/* === Fim Empty Block === */
+/* === Inicio Capacidades === */
+section#capacidades .itens-capacidades {
+	list-style-type: none;
+	margin: 0;
+	padding: 40px;
+}
+
+section#capacidades .p-capacidades {
+	text-align: center;
+	font-size: 18px;
+}
+/* === Fim Capacidades === */
+
+/* === Inicio Portifólio === */
+section#portifolio {
+	background-color: #e0e0e0;
+	height: 100vh;
+}
+/* === Fim Portifólio === */
+
+/* === Inicio Membros === */
+
+/* === Fim Membros === */
+
+/* === Inicio Contato === */
+section#contato {
+	background-color: #e0e0e0;
+}
+/* === Fim Contato === */
