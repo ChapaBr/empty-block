@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 h1, h2, h3, h4, h5, p, button, input, textarea, span, a {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 }
 
@@ -24,6 +24,7 @@ p {
 	text-align: center;
 	padding: 80px;
 	color: #2962FF;
+	text-transform: uppercase;
 }
 
 .icones-f {
@@ -113,5 +114,31 @@ section#portifolio {
 /* === Inicio Contato === */
 section#contato {
 	background-color: #e0e0e0;
+}
+
+section#contato a.redes-caixa {
+	width: 100%;
+	border: 1px solid #2962FF;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+section#contato a i.redes-icones {
+	font-size: 22px;
+	color: #2962FF;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+section#contato a p.redes-p {
+	color: #2962FF;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
 }
 /* === Fim Contato === */
