@@ -22,7 +22,7 @@ p {
 	font-size: 32px;
 	font-weight: 700;
 	text-align: center;
-	padding: 80px;
+	padding-bottom: 80px;
 	color: #2962FF;
 	text-transform: uppercase;
 }
@@ -34,6 +34,10 @@ p {
 	color: #2962FF;
 	text-decoration: none;
 	padding: 5px;
+}
+
+section {
+	padding: 80px 0;
 }
 /*
 ===  BOTÃO  ===
@@ -86,6 +90,11 @@ section#empty-block {
 	background-color: #e0e0e0;
 }
 
+section#empty-block p.ep-p {
+	border-left: 5px solid #2692FF;
+	padding-left: 7px;
+}
+
 /* === Fim Empty Block === */
 /* === Inicio Capacidades === */
 section#capacidades .itens-capacidades {
@@ -103,7 +112,47 @@ section#capacidades .p-capacidades {
 /* === Inicio Portifólio === */
 section#portifolio {
 	background-color: #e0e0e0;
-	height: 100vh;
+	padding-bottom: 80px;
+}
+
+section#portifolio div.portifolio-card {
+	margin: 5px;
+}
+
+section#portifolio h5.titulo-card {
+	font-size: 20px;
+	color: #2692FF;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section#portifolio a.card-btn {
+	color: #fff;
+	background-color: #2962FF;
+	border-radius: 7px;
+	font-size: 20px;
+	border: 1px solid #2962FF;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 7px;
+	padding: 5px 12px;
+	margin: 0;
+}
+
+section#portifolio a.card-btn:hover {
+	color: #fff;
+	background-color: #133eb5;
+	border: 1px solid #133eb5;
+	transition: 0.25s;
+}
+
+section#portifolio small.portfolio-icone {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	float: right;
 }
 /* === Fim Portifólio === */
 

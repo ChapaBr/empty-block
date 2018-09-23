@@ -33,4 +33,5 @@
 
 =============  Tecnologias  =============
 HTML5  //  CSS3  //  JS  // PHP //
-Bootstrap  // Google Fonts  // Fontawesome
+Bootstrap  // Google Fonts  // Fontawesome  //
+Paricles.Js  // MDB  //
