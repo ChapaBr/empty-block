@@ -22,7 +22,7 @@ p {
 	font-size: 32px;
 	font-weight: 700;
 	text-align: center;
-	padding-bottom: 80px;
+	padding: 80px 0;
 	color: #2962FF;
 	text-transform: uppercase;
 }
@@ -37,7 +37,7 @@ p {
 }
 
 section {
-	padding: 80px 0;
+	padding: 50px 0 80px 0;
 }
 /*
 ===  BOTÃO  ===
@@ -91,7 +91,7 @@ section#empty-block {
 }
 
 section#empty-block p.ep-p {
-	border-left: 5px solid #2692FF;
+	border-left: 5px solid #2962FF;
 	padding-left: 7px;
 }
 
@@ -121,10 +121,16 @@ section#portifolio div.portifolio-card {
 
 section#portifolio h5.titulo-card {
 	font-size: 20px;
-	color: #2692FF;
+	color: #2962FF;
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+section#portifolio p.texto-card-p {
+	font-size: 16px;
+	color: #333;
+	text-decoration: none;
 }
 
 section#portifolio a.card-btn {
@@ -148,10 +154,8 @@ section#portifolio a.card-btn:hover {
 }
 
 section#portifolio small.portfolio-icone {
-	font-size: 18px;
+	font-size: 20px;
 	margin: 0;
-	padding: 0;
-	text-align: center;
 	float: right;
 }
 /* === Fim Portifólio === */
