@@ -117,6 +117,13 @@ section#portifolio {
 
 section#portifolio div.portifolio-card {
 	margin: 5px;
+	min-height: 499.17px;
+}
+
+section#portifolio img.card-img-top,
+section#portifolio iframe.card-img-top {
+	height: 100%;
+	max-height: 261.17px;
 }
 
 section#portifolio h5.titulo-card {
@@ -126,8 +133,8 @@ section#portifolio h5.titulo-card {
 	text-align: center;
 	text-transform: uppercase;
 	border-top: 1px solid #2962FF;
-	padding-top: 7px;
 	margin: 0;
+	padding-top: 5px;
 }
 
 section#portifolio p.texto-card-p {
@@ -135,7 +142,6 @@ section#portifolio p.texto-card-p {
 	color: #333;
 	text-decoration: none;
 	text-align: center;
-	padding: 0 0 15px 0;
 	margin: 0;
 }
 
@@ -149,7 +155,7 @@ section#portifolio a.card-btn {
 	font-weight: 400;
 	border-radius: 7px;
 	padding: 5px 12px;
-	margin: 0;
+	vertical-align: bottom;
 }
 
 section#portifolio a.card-btn:hover {
@@ -160,10 +166,16 @@ section#portifolio a.card-btn:hover {
 }
 
 section#portifolio i.portifolio-icone {
-	font-size: 20px;
+	font-size: 21px;
 	margin: 0;
 	float: right;
 	padding: 0 1px;
+	opacity: 0.5;
+}
+
+section#portifolio i.portifolio-icone:hover {
+	opacity: 1;
+	transition: 0.25s;
 }
 
 section#portifolio small span {
