@@ -100,7 +100,7 @@ section#empty-block p.ep-p {
 section#capacidades .itens-capacidades {
 	list-style-type: none;
 	margin: 0;
-	padding: 40px;
+	padding: 0 40px 40px 40px;
 }
 
 section#capacidades .p-capacidades {
@@ -125,12 +125,18 @@ section#portifolio h5.titulo-card {
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
+	border-top: 1px solid #2962FF;
+	padding-top: 7px;
+	margin: 0;
 }
 
 section#portifolio p.texto-card-p {
 	font-size: 16px;
 	color: #333;
 	text-decoration: none;
+	text-align: center;
+	padding: 0 0 15px 0;
+	margin: 0;
 }
 
 section#portifolio a.card-btn {
@@ -153,10 +159,18 @@ section#portifolio a.card-btn:hover {
 	transition: 0.25s;
 }
 
-section#portifolio small.portfolio-icone {
+section#portifolio i.portifolio-icone {
 	font-size: 20px;
 	margin: 0;
 	float: right;
+	padding: 0 1px;
+}
+
+section#portifolio small span {
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
 }
 /* === Fim Portifólio === */
 
@@ -175,7 +189,8 @@ section#contato a.redes-caixa {
 	display: inline-block;
 	text-align: center;
 	padding: 10px;
-	margin: 5px;
+	margin: 0 0 10px 0;
+	border-radius: 7px;
 }
 
 section#contato a i.redes-icones {
@@ -193,5 +208,45 @@ section#contato a p.redes-p {
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
+}
+
+section#contato input.contato-input {
+	border: 1px solid #2962FF;
+	font-size: 16px;
+	border-radius: 7px;
+	margin: 15px;
+}
+
+section#contato textarea.contato-textarea {
+	border: 1px solid #2962FF;
+	font-size: 16px;
+	border-radius: 7px;
+	margin: 15px;
+}
+
+section#contato button.contato-btn {
+	color: #fff;
+	background-color: #2962FF;
+	border-radius: 7px;
+	font-size: 20px;
+	border: 1px solid #2962FF;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 7px;
+	margin: 15px;
+	margin: 0;
+	text-align: center;
+}
+
+section#contato button.contato-btn:hover {
+	color: #fff;
+	background-color: #133eb5;
+	border: 1px solid #133eb5;
+	transition: 0.25s;
+}
+
+section#contato form.formulario-contato {
+	max-width: 90%;
+	text-align: center;
 }
 /* === Fim Contato === */
