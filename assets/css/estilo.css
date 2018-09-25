@@ -86,7 +86,7 @@ color: ;
 /* === Inicio Nav === */
 nav {
 	background-color: #fff;
-	border-bottom: 3px solid #2962FF;
+	border-bottom: 2px solid #2962FF;
 }
 .img-logo {
 	max-width: 27%;
@@ -127,11 +127,20 @@ nav {
 /* === Fim Nav === */
 /* === Inicio Header === */
 section#pagina-topo {
-    background-image: url('../imagens/fundo.jpeg');
+	background-image: url('../../imagens/fundo.jpeg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
+}
+
+section#pagina-topo h1.titulo {
+	color: #fff;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: auto;
+	text-align: center;
 }
 /* === Fim Header === */
 /* === Inicio Empty Block === */
@@ -260,6 +269,7 @@ section#contato a i.redes-icones {
 	width: 50px;
 	height: 50px;
 	border: 2px solid #fff;
+	border-radius: 7px;
 	font-size: 25px;
 	padding: 10px;
 	text-align: center;
