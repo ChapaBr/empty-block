@@ -18,7 +18,7 @@ p {
 	text-align: justify;
 }
 
-.capitulos-titulos {
+.capitulos-titulos-azul {
 	font-size: 32px;
 	font-weight: 700;
 	text-align: center;
@@ -27,7 +27,7 @@ p {
 	text-transform: uppercase;
 }
 
-.capitulos-titulos-2 {
+.capitulos-titulos-branco {
 	font-size: 32px;
 	font-weight: 700;
 	text-align: center;
@@ -36,11 +36,20 @@ p {
 	text-transform: uppercase;
 }
 
-.icones-f {
+.icones-azul {
 	font-size: 30px;
 	text-align: center;
 	display: block;
 	color: #2962FF;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.icones-branco {
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	color: #fff;
 	text-decoration: none;
 	padding: 5px;
 }
@@ -75,6 +84,9 @@ color: ;
 */
 
 /* === Inicio Nav === */
+nav {
+	background-color: #333;
+}
 .img-logo {
 	max-width: 27%;
 	margin-left: 120px;
@@ -85,7 +97,7 @@ color: ;
 }
 
 .nav-item {
-	padding: 0 15px;
+	padding: 0 7px;
 }
 
 /* === Fim Nav === */
@@ -100,8 +112,12 @@ section#empty-block {
 }
 
 section#empty-block p.ep-p {
-	border-left: 5px solid #2962FF;
+	border-left: 5px solid #fff;
 	padding-left: 7px;
+}
+
+section#empty-block h4.sub-titulo {
+	color: #fff;
 }
 
 /* === Fim Empty Block === */
@@ -112,15 +128,16 @@ section#capacidades .itens-capacidades {
 	padding: 0 40px 40px 40px;
 }
 
-section#capacidades .p-capacidades {
+section#capacidades p.p-capacidades {
 	text-align: center;
 	font-size: 18px;
+	color: #000 !important;
 }
 /* === Fim Capacidades === */
 
 /* === Inicio Portifólio === */
 section#portifolio {
-	background-color: #2962FF;
+	background-color: #333;
 	padding-bottom: 80px;
 }
 
@@ -207,7 +224,7 @@ section#contato {
 
 section#contato a.redes-caixa {
 	width: 100%;
-	border: 1px solid #2962FF;
+	border: 1px solid #fff;
 	display: inline-block;
 	text-align: center;
 	padding: 10px;
@@ -217,14 +234,14 @@ section#contato a.redes-caixa {
 
 section#contato a i.redes-icones {
 	font-size: 22px;
-	color: #2962FF;
+	color: #fff;
 	text-align: center;
 	margin: 0;
 	padding: 0;
 }
 
 section#contato a p.redes-p {
-	color: #2962FF;
+	color: #fff;
 	font-size: 18px;
 	text-align: center;
 	text-decoration: none;
@@ -233,25 +250,25 @@ section#contato a p.redes-p {
 }
 
 section#contato input.contato-input {
-	border: 1px solid #2962FF;
+	border: 1px solid #fff;
 	font-size: 16px;
 	border-radius: 7px;
 	margin: 15px;
 }
 
 section#contato textarea.contato-textarea {
-	border: 1px solid #2962FF;
+	border: 1px solid #fff;
 	font-size: 16px;
 	border-radius: 7px;
 	margin: 15px;
 }
 
 section#contato button.contato-btn {
-	color: #fff;
-	background-color: #2962FF;
+	color: #2962FF;
+	background-color: #fff;
 	border-radius: 7px;
 	font-size: 20px;
-	border: 1px solid #2962FF;
+	border: 1px solid #fff;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin: 10px;
