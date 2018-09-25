@@ -89,16 +89,16 @@ nav {
 	border-bottom: 2px solid #2962FF;
 }
 .img-logo {
-	max-width: 27%;
+	max-width: 20%;
 	margin-left: 120px;
 }
 
 .navbar-nav {
-	padding-left: 18px;
+	padding-left: 30px;
 }
 
 .nav-link {
-	padding: 0 7px;
+	padding: 0 10px;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 700;
@@ -127,7 +127,7 @@ nav {
 /* === Fim Nav === */
 /* === Inicio Header === */
 section#pagina-topo {
-	background-image: url('../../imagens/fundo.jpeg');
+	background-image: url('../../imagens/fundo-2.jpeg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -241,9 +241,18 @@ section#portifolio i.portifolio-icone {
 	opacity: 0.5;
 }
 
-section#portifolio i.portifolio-icone:hover {
+section#portifolio i.portifolio-icone:hover,
+section#portifolio img.portifolio-icone:hover {
 	opacity: 1;
 	transition: 0.25s;
+}
+
+section#portifolio img.portifolio-icone {
+	width: 23px;
+	margin: 0;
+	float: right;
+	padding: 0 1px;
+	opacity: 0.5;
 }
 
 section#portifolio small span {
@@ -269,14 +278,24 @@ section#contato a {
 }
 
 section#contato a i.redes-icones {
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	border: 2px solid #fff;
 	border-radius: 7px;
-	font-size: 25px;
-	padding: 10px;
+	font-size: 20px;
+	padding: 8px;
 	text-align: center;
 	margin: 10px;
+}
+
+section#contato a i.redes-icones:hover {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	padding: 10px;
+	margin: 10px 4px;
+	transition: 0.3s;
+	text-align: center;
 }
 
 section#contato a span.redes-p {
@@ -325,3 +344,29 @@ section#contato form.formulario-contato {
 	margin: auto;
 }
 /* === Fim Contato === */
+
+/* === Inicio Rodape === */
+footer#rodape {
+	background-color: #333;
+	border-top: 1px solid #fff;
+	padding: 15px;
+}
+
+footer#rodape span {
+	color: #fff;
+	text-align: center;
+	font-size: 14px
+}
+
+footer#rodape a.texto-rodape {
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+footer#rodape a.texto-rodape:hover {
+	font-size: 16px;
+	transition: 0.3s;
+}
+/* === Fim Rodape === */
