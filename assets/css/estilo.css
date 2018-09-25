@@ -22,7 +22,7 @@ p {
 	font-size: 32px;
 	font-weight: 700;
 	text-align: center;
-	padding: 80px 0;
+	padding: 80px 80px;
 	color: #2962FF;
 	text-transform: uppercase;
 }
@@ -31,7 +31,7 @@ p {
 	font-size: 32px;
 	font-weight: 700;
 	text-align: center;
-	padding: 80px 0;
+	margin-bottom: 80px;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -55,7 +55,7 @@ p {
 }
 
 section {
-	padding: 50px 0 80px 0;
+	padding: 80px 0 80px 0;
 }
 /*
 ===  BOTÃO  ===
@@ -85,7 +85,8 @@ color: ;
 
 /* === Inicio Nav === */
 nav {
-	background-color: #333;
+	background-color: #fff;
+	border-bottom: 3px solid #2962FF;
 }
 .img-logo {
 	max-width: 27%;
@@ -98,6 +99,29 @@ nav {
 
 .nav-item {
 	padding: 0 7px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.nav-link:after {
+        display: block;
+        content: '';
+        border-bottom: solid 2px #000;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+    }
+
+.nav-link:hover:after {
+        transform: scaleX(1);
+}
+
+.nav-link.fromLeft:after {
+        transform-origin: 0% 50%;
+}
+
+.nav-link:hover {
+	color: #000;
 }
 
 /* === Fim Nav === */
@@ -138,19 +162,19 @@ section#capacidades p.p-capacidades {
 /* === Inicio Portifólio === */
 section#portifolio {
 	background-color: #333;
-	padding-bottom: 80px;
+	padding: 80px 0 130px;
 }
 
 section#portifolio div.portifolio-card {
 	margin: 7px;
-	min-height: 499.17px;
+	min-height: 499px;
 	border-radius: 7px;
 }
 
 section#portifolio img.card-img-top,
 section#portifolio iframe.card-img-top {
 	height: 100%;
-	max-height: 261.17px;
+	max-height: 261px;
 }
 
 section#portifolio h5.titulo-card {
@@ -161,7 +185,7 @@ section#portifolio h5.titulo-card {
 	text-transform: uppercase;
 	border-top: 1px solid #2962FF;
 	margin: 0;
-	padding-top: 5px;
+	padding-top: 15px;
 }
 
 section#portifolio p.texto-card-p {
@@ -169,8 +193,9 @@ section#portifolio p.texto-card-p {
 	color: #333;
 	text-decoration: none;
 	text-align: center;
-	margin: 0;
-	margin-bottom: 50px; 
+	min-height: 70px;
+	height: 100%;
+	margin: 15px 0 25px;
 }
 
 section#portifolio a.card-btn {
@@ -271,7 +296,7 @@ section#contato button.contato-btn {
 	border: 1px solid #fff;
 	text-transform: uppercase;
 	font-weight: 400;
-	margin: 10px;
+	margin: 5px;
 	padding: 5px 12px;
 	text-align: center;
 }
@@ -284,7 +309,7 @@ section#contato button.contato-btn:hover {
 }
 
 section#contato form.formulario-contato {
-	max-width: 90%;
-	text-align: center;
+	max-width: 80%;
+	margin: auto;
 }
 /* === Fim Contato === */
