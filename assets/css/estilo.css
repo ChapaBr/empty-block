@@ -283,7 +283,7 @@ section#contato a i.redes-icones {
 	border: 2px solid #fff;
 	border-radius: 7px;
 	font-size: 20px;
-	padding: 8px;
+	padding: 9px 0 0 1px;
 	text-align: center;
 	margin: 10px;
 }
@@ -292,9 +292,9 @@ section#contato a i.redes-icones:hover {
 	width: 50px;
 	height: 50px;
 	font-size: 25px;
-	padding: 10px;
+	padding: 10px 0 0 2px;
 	margin: 10px 4px;
-	transition: 0.3s;
+	transition: all 0.2s;
 	text-align: center;
 }
 
