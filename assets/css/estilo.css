@@ -116,8 +116,9 @@ section#portifolio {
 }
 
 section#portifolio div.portifolio-card {
-	margin: 5px;
+	margin: 7px;
 	min-height: 499.17px;
+	border-radius: 7px;
 }
 
 section#portifolio img.card-img-top,
@@ -143,6 +144,7 @@ section#portifolio p.texto-card-p {
 	text-decoration: none;
 	text-align: center;
 	margin: 0;
+	margin-bottom: 50px; 
 }
 
 section#portifolio a.card-btn {
@@ -155,7 +157,6 @@ section#portifolio a.card-btn {
 	font-weight: 400;
 	border-radius: 7px;
 	padding: 5px 12px;
-	vertical-align: bottom;
 }
 
 section#portifolio a.card-btn:hover {
@@ -244,9 +245,8 @@ section#contato button.contato-btn {
 	border: 1px solid #2962FF;
 	text-transform: uppercase;
 	font-weight: 400;
-	border-radius: 7px;
-	margin: 15px;
-	margin: 0;
+	margin: 10px;
+	padding: 5px 12px;
 	text-align: center;
 }
 
