@@ -104,20 +104,20 @@ nav {
 	font-weight: 700;
 }
 
-.nav-link:after {
-        display: block;
-        content: '';
-        border-bottom: solid 2px #000;
-        transform: scaleX(0);
-        transition: transform 250ms ease-in-out;
-    }
-
-.nav-link:hover:after {
-        transform: scaleX(1);
+.nav-item > a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px #000;
+    transform: scaleX(0);
+    transition: transform 330ms ease-in-out;
 }
 
-.nav-link.fromLeft:after {
-        transform-origin: 0% 50%;
+.nav-item > a:hover:after {
+    transform: scaleX(1);
+}
+
+.nav-item > a:after {
+    transform-origin: 0% 50%;
 }
 
 .nav-link:hover {
