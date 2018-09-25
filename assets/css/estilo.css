@@ -12,7 +12,7 @@ body {
 }
 
 p {
-	color: #333;
+	color: #fff;
 	font-size: 18px;
 	font-weight: 400;
 	text-align: justify;
@@ -24,6 +24,15 @@ p {
 	text-align: center;
 	padding: 80px 0;
 	color: #2962FF;
+	text-transform: uppercase;
+}
+
+.capitulos-titulos-2 {
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	padding: 80px 0;
+	color: #fff;
 	text-transform: uppercase;
 }
 
@@ -87,7 +96,7 @@ section#pagina-topo {
 /* === Fim Header === */
 /* === Inicio Empty Block === */
 section#empty-block {
-	background-color: #e0e0e0;
+	background-color: #333;
 }
 
 section#empty-block p.ep-p {
@@ -111,7 +120,7 @@ section#capacidades .p-capacidades {
 
 /* === Inicio Portifólio === */
 section#portifolio {
-	background-color: #e0e0e0;
+	background-color: #2962FF;
 	padding-bottom: 80px;
 }
 
@@ -187,13 +196,13 @@ section#portifolio small span {
 }
 /* === Fim Portifólio === */
 
-/* === Inicio Membros === */
+/* === Inicio Equipe === */
 
-/* === Fim Membros === */
+/* === Fim Equipe === */
 
 /* === Inicio Contato === */
 section#contato {
-	background-color: #e0e0e0;
+	background-color: #333;
 }
 
 section#contato a.redes-caixa {

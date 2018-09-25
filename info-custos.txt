@@ -1,0 +1,11 @@
+-Land Page Max-300
+-Portifólio Max-300
+-Institucional - 300 a 500
+-Blog - 300 a 500
+-Otimização - 100
+-Manutenção = 50 se tiver imagens soma o valor das imagens
+ *Texto 
+ *Cores
+ *Imagens  + valor das imagens
+
+Propriedade Intelectual
