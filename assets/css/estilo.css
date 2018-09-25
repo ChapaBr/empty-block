@@ -22,7 +22,7 @@ p {
 	font-size: 32px;
 	font-weight: 700;
 	text-align: center;
-	padding: 80px 80px;
+	margin-bottom: 80px;
 	color: #2962FF;
 	text-transform: uppercase;
 }
@@ -135,13 +135,15 @@ section#pagina-topo {
 }
 
 section#pagina-topo h1.titulo {
-	color: #fff;
-	font-size: 32px;
+	color: #2962FF;
+	font-size: 62px;
+	text-shadow: 3px 3px 3px #fff;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin: auto;
+	margin: 80px 0;
 	text-align: center;
 }
+
 /* === Fim Header === */
 /* === Inicio Empty Block === */
 section#empty-block {
@@ -188,6 +190,7 @@ section#portifolio img.card-img-top,
 section#portifolio iframe.card-img-top {
 	height: 100%;
 	max-height: 261px;
+	border-radius: 7px;
 }
 
 section#portifolio h5.titulo-card {
