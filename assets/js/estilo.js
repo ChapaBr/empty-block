@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 
-    $('.owl-carousel').owlCarousel({
+    $('#owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
@@ -25,7 +25,7 @@ $(document).ready(function(){
     margin:10,
     nav:true,
     autoplay:true,
-    autoplayTimeout:3500,
+    autoplayTimeout:5000,
     responsive:{
         0:{
             items:1
@@ -34,7 +34,7 @@ $(document).ready(function(){
             items:2
         },
         1000:{
-            items:2
+            items:3
         }
     }
 })

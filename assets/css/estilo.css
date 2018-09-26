@@ -269,8 +269,29 @@ section#portifolio small span {
 
 /* === Inicio Equipe === */
 
-section#equipe div.equipe-carousel {
+section#equipe div.card {
+	width: 250px;
+	height: auto;
+	margin: 0 auto;
+	border: 3px solid #2962FF;
+}
 
+section#equipe img.equipe-img {
+	margin: 10px auto 0;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+section#equipe h5.equipe-card-titulo {
+	color: #2962FF;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+section#equipe p.card-text {
+	font-size: 16px
+	color: #fff;
 }
 
 /* === Fim Equipe === */
@@ -386,10 +407,30 @@ div a.btn-fim-topo {
 	position: fixed;
 	right: 55px;
 	bottom: 55px;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	border: 1px solid #2962FF;
-	border-radius: 45px;
-	background-color: #000;
+	border-radius: 100%;
+	background-color: #2962FF;
+	opacity: 0.4;
+}
+
+div a.btn-fim-topo:hover {
+	opacity: 1.0;
+	transition: 0.4s;
+}
+
+div a i.seta-topo {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+	padding: 10px;
+	opacity: 0.4;
+}
+
+div a i.seta-topo:hover {
+	opacity: 1.0;
+	transition: 0.4s;
+	text-shadow: 1px 1px 1px #333;
 }
 /* === Fim Btn Topo === */
