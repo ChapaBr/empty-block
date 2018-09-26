@@ -289,9 +289,9 @@ section#equipe h5.equipe-card-titulo {
 	font-weight: 700;
 }
 
-section#equipe p.card-text {
-	font-size: 16px
-	color: #fff;
+section#equipe div.card-body p.equipe-card-texto {
+	font-size: 16px;
+	color: #333;
 }
 
 /* === Fim Equipe === */

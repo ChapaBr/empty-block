@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 
-    $('#owl-carousel').owlCarousel({
+    $('#projetos-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
