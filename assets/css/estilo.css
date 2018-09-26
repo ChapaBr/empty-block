@@ -409,8 +409,8 @@ div a.btn-fim-topo {
 	z-index: 9999;
 	display: table;
 	position: fixed;
-	right: 55px;
-	bottom: 55px;
+	right: 30px;
+	bottom: 20px;
 	width: 35px;
 	height: 35px;
 	border: 1px solid #2962FF;
