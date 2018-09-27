@@ -134,14 +134,11 @@ section#pagina-topo {
     height: 100vh;
 }
 
-section#pagina-topo h1.titulo {
-	color: #2962FF;
-	font-size: 62px;
-	text-shadow: 3px 3px 3px #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	margin: 80px 0;
-	text-align: center;
+section#pagina-topo img {
+	margin: auto;
+	position: center;
+	background-attachment: fixed;
+	max-height: 400px;
 }
 
 /* === Fim Header === */
