@@ -127,9 +127,8 @@ nav {
 /* === Fim Nav === */
 /* === Inicio Header === */
 section#pagina-topo {
-	background-image: url('../../imagens/fundo-2.jpeg');
+	background: url('../../imagens/fundo-2.jpeg') fixed;
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -138,7 +137,7 @@ section#pagina-topo img {
 	margin: auto;
 	position: center;
 	background-attachment: fixed;
-	max-height: 400px;
+	max-width: 300px;
 }
 
 /* === Fim Header === */
@@ -287,10 +286,26 @@ section#equipe h5.equipe-card-titulo {
 	font-weight: 700;
 }
 
+section#equipe div.card-body p.equipe-card-texto-topo {
+	color: #2962FF;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
 section#equipe div.card-body p.equipe-card-texto {
 	font-size: 16px;
 	color: #333;
 	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+section#equipe div.card-footer small a i {
+	font-size: 18px;
+	color: #2962FF;
+	padding: 0 5px;
 	margin: 0;
 	text-align: center;
 }
@@ -408,10 +423,10 @@ div a.btn-fim-topo {
 	position: fixed;
 	right: 30px;
 	bottom: 20px;
-	width: 35px;
-	height: 35px;
+	width: 40px;
+	height: 40px;
 	border: 1px solid #2962FF;
-	border-radius: 100%;
+	border-radius: 40px;
 	background-color: #2962FF;
 	opacity: 0.4;
 }
@@ -423,7 +438,7 @@ div a.btn-fim-topo:hover {
 
 div a i.seta-topo {
 	color: #fff;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: 700;
 	padding: 10px;
 	opacity: 0.4;
