@@ -158,15 +158,13 @@ section#empty-block {
 }
 
 section#empty-block p.eb-p {
-	border-left: 3px solid #fff;
-	border-right: 3px solid #fff;
 	padding: 0 7px;
 	max-width: 80%;
 	margin: 0 auto;
 }
 
 section#empty-block i.icones-branco-eb {
-	margin: 40px auto 0 auto;
+	margin: 80px auto 0 auto;
 	font-size: 30px;
 	text-align: center;
 	display: block;
@@ -311,19 +309,26 @@ section#equipe h5.equipe-card-titulo {
 	font-weight: 700;
 }
 
+section#equipe div.area-equipe {
+	width: 100%;
+	clear: both;
+	display: table;
+	text-align: center;
+}
+
 section#equipe img.icone-equipe {
-	width: 16px;
-	margin: 0;
-	float: right;
-	padding: 0;
+	max-width: 15px;
+	float: left;
+	padding-top: 4px;
 }
 
 section#equipe div.card-body p.equipe-card-texto-topo {
 	color: #2962FF;
 	font-size: 16px;
 	padding: 0;
-	margin: 0;
+	margin: 0 5px 0;
 	text-align: center;
+	float: left;
 }
 
 section#equipe div.card-body p.equipe-card-texto {
