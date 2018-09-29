@@ -24,7 +24,7 @@ $(document).ready(function(){
     loop:true,
     margin:10,
     nav:true,
-    autoplay:false,
+    autoplay:true,
     autoplayTimeout:5000,
     responsive:{
         0:{
@@ -40,16 +40,45 @@ $(document).ready(function(){
 })
 
     var div = document.getElementById('log');
-var texto = 'Web Designer & Mídia Digital';
+        var texto = 'Web Designer & Mídia Digital';
 
-function escrever(str, el) {
-  var char = str.split('').reverse();
-  var typer = setInterval(function() {
-    if (!char.length) return clearInterval(typer);
-    var next = char.pop();
-    el.innerHTML += next;
-  }, 100);
-}
-escrever(texto, div);
+        function escrever(str, el) {
+          var char = str.split('').reverse();
+          var typer = setInterval(function() {
+            if (!char.length) return clearInterval(typer);
+            var next = char.pop();
+            el.innerHTML += next;
+          }, 100);
+        }
+        escrever(texto, div);
+
+        function menurolagem(){
+            var navmenu = $('.navbar');
+            if ($(window).scrollTop() > 350 ) {
+                $('.navbar').removeClass('ativacao-nav'); 
+                $('.nav-link').removeClass('menu-cor-rolagem');
+            }
+            else {
+                $('.navbar').addClass('ativacao-nav');
+                $('.nav-link').addClass('menu-cor-rolagem');
+            }
+        }
+
+        menurolagem();
+        $(window).on('scroll', function(){
+            menurolagem();
+        });
+
+        //Click Para realizar a rolagem
+
+        $('.scrolling a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        var id = $(this).attr('href'),
+            targetOffset = $(id).offset().top;
+
+        $('html, body').animate({
+            scrollTop: targetOffset - 100
+        }, 700);
+    });
 
 });
