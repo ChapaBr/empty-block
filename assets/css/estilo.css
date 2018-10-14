@@ -359,6 +359,26 @@ section#equipe div.card-footer small a i {
 	text-align: center;
 }
 
+button.owl-prev {
+	position: absolute;
+	left: 0;
+	top: 204px;
+	margin: 0;
+}
+
+button.owl-prev span,
+button.owl-next span {
+	font-size: 46px;
+	color: #2962FF;
+}
+
+button.owl-next {
+	position: absolute;
+	right: 0;
+	top: 204px;
+	margin: 0;
+}
+
 /* === Fim Equipe === */
 
 /* === Inicio Contato === */
