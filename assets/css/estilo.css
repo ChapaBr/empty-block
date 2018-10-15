@@ -522,12 +522,82 @@ div a i.seta-topo:hover {
 
 /* === Mudança Scroll === */
 body::-webkit-scrollbar-track {
-        background-color: #FFF;
-    }
-    body::-webkit-scrollbar {
-        width: 7px;
-        background: #FFF;
-    }
-    body::-webkit-scrollbar-thumb {
-        background: #333;
-    }
+    background-color: #FFF;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background: #FFF;
+}
+body::-webkit-scrollbar-thumb {
+    background: #333;
+}
+
+/* === Inicio Particles === */
+div#particles-js {
+	position: relative;
+	top: 0;
+	max-height: 520px;
+}
+
+.particles-js-canvas-el {
+    display: table;
+    position: relative;
+   	height: inherit !important;
+   	top: -35em;
+}
+
+canvas {
+	
+}
+
+/* === Fim Particles === */
+
+/* === Inicio Media Query === */
+
+/* === Inicio Media 768 === */
+@media screen and (max-width: 768px) {
+	.navbar-brand {
+		width: 84%;
+	}
+	.img-logo {
+		margin: 0;
+	}
+	button.navbar-toggler {
+		padding: 0;
+		margin-top: 10px;
+	}
+	div#particles-js {
+		max-height: 820px;
+	}
+
+	section#pagina-topo img {
+		margin: auto;
+		position: relative;
+		background-attachment: fixed;
+		width: 100vh;
+	}
+}
+/* === Fim Media 786 === */
+
+/* === Inicio Media 320 === */
+@media screen and (width: 320px) {
+	.navbar-brand {
+		width: 75%;
+	}
+	.img-logo {
+		margin: 0;
+	}
+
+	.navbar {
+		padding: 8px 16px;
+	}
+
+	button.navbar-toggler {
+		padding: 0;
+		margin-top: 10px;
+	}
+}
+/* === Fim Media 320 === */
+
+/* === Fim Media Query === */
