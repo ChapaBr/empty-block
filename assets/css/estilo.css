@@ -206,26 +206,30 @@ section#capacidades p.p-capacidades {
 /* === Fim Capacidades === */
 
 /* === Inicio Portifólio === */
-section#portifolio {
+section#portfolio {
 	background-color: #333;
 	padding: 80px 0 130px;
 }
 
-section#portifolio div.portifolio-card {
+section#portfolio div.mudar-index {
+	z-index: 99;
+}
+
+section#portfolio div.portfolio-card {
 	margin: 7px;
 	min-height: 499px;
 	border-radius: 7px;
 }
 
-section#portifolio img.card-img-top,
-section#portifolio iframe.card-img-top {
+section#portfolio img.card-img-top,
+section#portfolio iframe.card-img-top {
 	height: 100%;
 	max-height: 261px;
 	border-radius: 7px;
 	padding: 0;
 }
 
-section#portifolio h5.titulo-card {
+section#portfolio h5.titulo-card {
 	font-size: 20px;
 	color: #2962FF;
 	font-weight: 700;
@@ -236,11 +240,11 @@ section#portifolio h5.titulo-card {
 	padding-top: 15px;
 }
 
-section#portifolio div.card-body {
+section#portfolio div.card-body {
 	padding-top: 0px;
 }
 
-section#portifolio p.texto-card-p {
+section#portfolio p.texto-card-p {
 	font-size: 16px;
 	color: #333;
 	text-decoration: none;
@@ -250,7 +254,7 @@ section#portifolio p.texto-card-p {
 	margin: 15px 0 25px;
 }
 
-section#portifolio a.card-btn {
+section#portfolio a.card-btn {
 	color: #fff;
 	background-color: #2962FF;
 	border-radius: 7px;
@@ -262,14 +266,14 @@ section#portifolio a.card-btn {
 	padding: 5px 12px;
 }
 
-section#portifolio a.card-btn:hover {
+section#portfolio a.card-btn:hover {
 	color: #fff;
 	background-color: #133eb5;
 	border: 1px solid #133eb5;
 	transition: 0.25s;
 }
 
-section#portifolio i.portifolio-icone {
+section#portfolio i.portfolio-icone {
 	font-size: 21px;
 	margin: 0;
 	float: right;
@@ -277,13 +281,13 @@ section#portifolio i.portifolio-icone {
 	opacity: 0.5;
 }
 
-section#portifolio i.portifolio-icone:hover,
-section#portifolio img.portifolio-icone:hover {
+section#portfolio i.portfolio-icone:hover,
+section#portfolio img.portfolio-icone:hover {
 	opacity: 1;
 	transition: 0.25s;
 }
 
-section#portifolio img.portifolio-icone {
+section#portfolio img.portfolio-icone {
 	width: 23px;
 	margin: 0;
 	float: right;
@@ -291,7 +295,7 @@ section#portifolio img.portifolio-icone {
 	opacity: 0.5;
 }
 
-section#portifolio small span {
+section#portfolio small span {
 	float: left;
 	font-size: 14px;
 	margin: 0;
@@ -541,14 +545,17 @@ div#particles-js {
 }
 
 .particles-js-canvas-el {
-    display: table;
+	display: table;
     position: relative;
    	height: inherit !important;
    	top: -35em;
+   	size: 1200px;
 }
 
-canvas {
-	
+div#particles-js1 {
+	position: relative;
+	top: 0;
+	max-height: 1190px;
 }
 
 /* === Fim Particles === */
