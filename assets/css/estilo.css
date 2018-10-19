@@ -326,25 +326,12 @@ section#equipe h5.equipe-card-titulo {
 	font-weight: 700;
 }
 
-section#equipe div.area-equipe {
-	width: 100%;
-	clear: both;
-	display: table;
-	text-align: center;
-}
-
-section#equipe img.icone-equipe {
-	max-width: 15px;
-	float: left;
-	padding-top: 4px;
-}
-
 section#equipe div.card-body p.equipe-card-texto-topo {
 	color: #2962FF;
 	font-size: 16px;
 	padding: 0;
 	margin: 0 5px 0;
-	float: left;
+	text-align: center;
 }
 
 section#equipe div.card-body p.equipe-card-texto {
