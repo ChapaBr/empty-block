@@ -1,8 +1,11 @@
-$(window).load(function() {
-    $('.empty-preloader').fadeOut();
-});
-
 $(document).ready(function(){
+
+    setTimeout(function(){
+        $('.empty-preloader').fadeOut();
+    },3200);
+
+    //fim load
+
     $('[data-toggle="tooltip"]').tooltip();
 
     $('.projetos-carousel').owlCarousel({
