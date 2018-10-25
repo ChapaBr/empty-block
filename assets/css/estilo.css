@@ -414,14 +414,12 @@ section#contato input.contato-input {
 	border: 1px solid #fff;
 	font-size: 16px;
 	border-radius: 7px;
-	margin: 15px;
 }
 
 section#contato textarea.contato-textarea {
 	border: 1px solid #fff;
 	font-size: 16px;
 	border-radius: 7px;
-	margin: 15px;
 }
 
 section#contato button.contato-btn {
@@ -571,6 +569,10 @@ div#particles-js1 {
 		background-attachment: fixed;
 		width: 100vh;
 	}
+
+	.navbar-nav {
+		padding-left: 0;
+	}
 }
 /* === Fim Media 786 === */
 
@@ -584,6 +586,23 @@ div#particles-js1 {
 	div#particles-js1 {
 		max-height: 3290px;
 	}
+
+	a.navbar-brand {
+		width: 82%;
+	}
+
+	.img-logo {
+		margin-left: 0;
+	}
+
+	button.navbar-toggler {
+		padding: 0;
+		margin-top: 10px;
+	}
+
+	.navbar-nav {
+		padding-left: 0;
+	}
 }
 /* === Fim Media 425 === */
 
@@ -596,6 +615,23 @@ div#particles-js1 {
 
 	div#particles-js1 {
 		max-height: 3290px;
+	}
+
+	a.navbar-brand {
+		width: 79%;
+	}
+
+	.img-logo {
+		margin-left: 0;
+	}
+
+	button.navbar-toggler {
+		padding: 0;
+		margin-top: 10px;
+	}
+
+	.navbar-nav {
+		padding-left: 0;
 	}
 }
 /* === Fim Media 375 === */
@@ -625,6 +661,14 @@ div#particles-js1 {
 	button.navbar-toggler {
 		padding: 0;
 		margin-top: 10px;
+	}
+
+	.navbar-nav {
+		padding-left: 0;
+	}
+
+	section#contato a span.redes-p {
+		font-size: 16px;
 	}
 }
 /* === Fim Media 320 === */
