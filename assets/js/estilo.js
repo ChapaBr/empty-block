@@ -1,3 +1,7 @@
+$(window).load(function() {
+    $('.empty-preloader').fadeOut();
+});
+
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 
