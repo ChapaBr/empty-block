@@ -423,13 +423,13 @@ section#contato textarea.contato-textarea {
 }
 
 section#contato button.contato-btn {
-	color: #2962FF;
+	color: #000;
 	background-color: #fff;
 	border-radius: 7px;
 	font-size: 20px;
 	border: 1px solid #fff;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 700;
 	margin: 5px;
 	padding: 5px 12px;
 	text-align: center;
